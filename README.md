@@ -1,2 +1,2 @@
-# IQPyramid
-智慧金字塔游戏解题pratice just for fun
+智慧金字塔解题代码练习
+just for fun
