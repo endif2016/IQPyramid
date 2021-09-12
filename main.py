@@ -180,9 +180,9 @@ if __name__ == '__main__':
     ]
     use_mark = (0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0)
 
-    unused = [components[i] for i, m in enumerate(use_mark) if m == 0]
-    cnt = use_mark.count(0)
 
     print('start...')
+    unused = [components[i] for i, m in enumerate(use_mark) if m == 0]
+    cnt = use_mark.count(0)
     dfs(tmap, 0)
     print('done')
